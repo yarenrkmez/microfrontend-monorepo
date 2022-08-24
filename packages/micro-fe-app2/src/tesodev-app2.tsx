@@ -15,4 +15,5 @@ const lifecycles = singleSpaReact({
 });
 
 export const { bootstrap, mount, unmount } = lifecycles;
-export * from "./components/Card/index";
+export { default as Card } from "./components/Card";
+export { default as Navbar } from "./components/Navbar";
