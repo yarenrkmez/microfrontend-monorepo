@@ -21,7 +21,7 @@ function Home() {
                 <p>Micro Frontend Monorepo</p>
                 <div className="card-wrapper">
                     <CardApp1 />
-                    <CardApp2 />
+                    <CardApp2 title="Called from app1" />
                 </div>
 
                 <div className="mb12">
